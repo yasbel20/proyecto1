@@ -1,0 +1,63 @@
+# ----------------------------
+# Entorno virtual
+# ----------------------------
+venv/
+.venv/
+env/
+.env
+
+# ----------------------------
+# Archivos de Python
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc.*
+*.pyd.*
+*.pyo.*
+*.so
+*.egg-info/
+
+# ----------------------------
+# Archivos de logs y bases de datos locales
+# ----------------------------
+*.log
+*.sqlite3
+*.db
+*.sqlite
+
+# ----------------------------
+# Configuración de VS Code
+# ----------------------------
+.vscode/
+
+# ----------------------------
+# Archivos de sistema
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Archivos de FastAPI/Uvicorn
+# ----------------------------
+*.pid
+*.sock
+
+# ----------------------------
+# Caché de pip y wheel
+# ----------------------------
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ----------------------------
+# Otros archivos temporales
+# ----------------------------
+*.tmp
+*.bak
+*.swp
+*.swo
